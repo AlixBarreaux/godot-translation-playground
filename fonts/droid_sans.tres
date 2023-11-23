@@ -1,0 +1,22 @@
+[gd_resource type="FontFile" load_steps=7 format=3]
+
+[ext_resource type="FontFile" uid="uid://bmdrxecbois82" path="res://fonts/DroidSansArabic.ttf" id="1"]
+[ext_resource type="FontFile" uid="uid://bphywghg3movi" path="res://fonts/DroidSansFallback.ttf" id="2"]
+[ext_resource type="FontFile" uid="uid://dbgm53gq1ssm8" path="res://fonts/DroidSansHebrew.ttf" id="3"]
+[ext_resource type="FontFile" uid="uid://s5ejs7cn1kp4" path="res://fonts/DroidSansJapanese.ttf" id="4"]
+[ext_resource type="FontFile" uid="uid://bgvkcw3xa7wnm" path="res://fonts/DroidSansThai.ttf" id="5"]
+[ext_resource type="FontFile" uid="uid://cwutf6gj5j8xa" path="res://fonts/DroidSans.ttf" id="6"]
+
+[resource]
+
+size = 16
+use_mipmaps = false
+use_filter = false
+font_data = ExtResource( 6 )
+fallback/0 = ExtResource( 1 )
+fallback/1 = ExtResource( 2 )
+fallback/2 = ExtResource( 3 )
+fallback/3 = ExtResource( 4 )
+fallback/4 = ExtResource( 5 )
+_sections_unfolded = [ "Font", "Font/fallback" ]
+
