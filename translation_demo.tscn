@@ -1,8 +1,9 @@
-[gd_scene load_steps=7 format=3 uid="uid://bs1s4hfhyt87k"]
+[gd_scene load_steps=8 format=3 uid="uid://bs1s4hfhyt87k"]
 
 [ext_resource type="Script" path="res://translation_demo.gd" id="1"]
-[ext_resource type="FontFile" path="res://fonts/droid_sans.tres" id="2_qi2qa"]
+[ext_resource type="FontFile" uid="uid://dghxjymkr36w4" path="res://fonts/droid_sans.tres" id="2_qi2qa"]
 [ext_resource type="Texture2D" uid="uid://eansk1uek5v7" path="res://speaker.png" id="3"]
+[ext_resource type="FontFile" uid="uid://s5ejs7cn1kp4" path="res://fonts/DroidSansJapanese.ttf" id="3_4teg3"]
 [ext_resource type="Texture2D" uid="uid://b7kmo1vsgmdsm" path="res://flags/flag_uk.png" id="4_123i0"]
 [ext_resource type="AudioStream" uid="uid://brmghkngaxnqv" path="res://voices/hello_en.wav" id="5_sgrcn"]
 [ext_resource type="PackedScene" uid="uid://c6cmg77fwn7wb" path="res://items_menu.tscn" id="6_pmrqs"]
@@ -25,9 +26,11 @@ size_flags_vertical = 2
 script = ExtResource("1")
 
 [node name="VBoxContainer" type="VBoxContainer" parent="."]
-layout_mode = 0
-offset_right = 196.0
-offset_bottom = 169.0
+custom_minimum_size = Vector2(350, 0)
+layout_mode = 2
+offset_top = 15.0
+offset_right = 350.0
+offset_bottom = 314.0
 theme_override_constants/separation = 15
 
 [node name="English" type="Button" parent="VBoxContainer"]
@@ -42,6 +45,12 @@ size_flags_horizontal = 3
 size_flags_vertical = 2
 text = "Use French"
 
+[node name="Polish" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 2
+text = "Use Polish"
+
 [node name="Spanish" type="Button" parent="VBoxContainer"]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -55,13 +64,12 @@ size_flags_vertical = 2
 text = "Use Japanese"
 
 [node name="Description" type="Label" parent="."]
-layout_mode = 0
-offset_left = 243.0
-offset_top = 42.0
-offset_right = 804.0
-offset_bottom = 312.0
+layout_mode = 2
+offset_left = 400.0
+offset_top = 13.0
+offset_right = 969.0
+offset_bottom = 318.0
 size_flags_horizontal = 2
-size_flags_vertical = 0
 theme_override_fonts/font = ExtResource("2_qi2qa")
 text = "This is a demo of how a game can be internationalized.
 Translations are created in a CSV file and then imported into Godot.
@@ -72,6 +80,7 @@ in the font/ folder that you can use for your games.
 Godot allows internationalized text to change automatically when the locale is
 modified. Resources can also be set internationalized alternatives and replaced
 automatically on locale change."
+autowrap_mode = 1
 
 [node name="HSeparator" type="HSeparator" parent="."]
 layout_mode = 0
@@ -87,8 +96,10 @@ offset_top = 381.0
 offset_right = 475.0
 offset_bottom = 405.0
 size_flags_vertical = 0
-theme_override_fonts/font = ExtResource("2_qi2qa")
+theme_override_fonts/font = ExtResource("3_4teg3")
 text = "Hello!"
+horizontal_alignment = 1
+vertical_alignment = 1
 
 [node name="PlayAudio" type="Button" parent="."]
 layout_mode = 0
@@ -108,9 +119,6 @@ offset_right = 213.0
 offset_bottom = 467.0
 texture = ExtResource("4_123i0")
 
-[node name="Audio" type="AudioStreamPlayer" parent="."]
-stream = ExtResource("5_sgrcn")
-
 [node name="ItemsMenu" parent="." instance=ExtResource("6_pmrqs")]
 layout_mode = 1
 offset_left = -15.0
@@ -118,8 +126,12 @@ offset_top = -78.0
 offset_right = 15.0
 offset_bottom = 18.0
 
+[node name="Audio" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("5_sgrcn")
+
 [connection signal="pressed" from="VBoxContainer/English" to="." method="_on_english_pressed"]
 [connection signal="pressed" from="VBoxContainer/French" to="." method="_on_french_pressed"]
+[connection signal="pressed" from="VBoxContainer/Polish" to="." method="_on_polish_pressed"]
 [connection signal="pressed" from="VBoxContainer/Spanish" to="." method="_on_spanish_pressed"]
 [connection signal="pressed" from="VBoxContainer/Japanese" to="." method="_on_japanese_pressed"]
 [connection signal="pressed" from="PlayAudio" to="." method="_on_play_pressed"]

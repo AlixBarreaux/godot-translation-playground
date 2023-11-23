@@ -22,6 +22,10 @@ msgid "Use French"
 msgstr ""
 
 #: translation_demo.tscn
+msgid "Use Polish"
+msgstr ""
+
+#: translation_demo.tscn
 msgid "Use Spanish"
 msgstr ""
 
@@ -48,6 +52,11 @@ msgstr ""
 
 #: translation_demo.tscn
 msgid "Click me"
+msgstr ""
+
+#: items_menu.gd
+#: items_menu.tscn
+msgid "You currently have no fruit!"
 msgstr ""
 
 #: items_menu.gd

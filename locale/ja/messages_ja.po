@@ -1,0 +1,89 @@
+# LANGUAGE translation for Translation Demo for the following files:
+# res://translation_demo.tscn
+# res://items_menu.gd
+# res://items_menu.tscn
+#
+# FIRST AUTHOR < EMAIL @ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Translation Demo\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.2.2\n"
+
+#: translation_demo.tscn
+msgid "Use English"
+msgstr "英語を使う"
+
+#: translation_demo.tscn
+msgid "Use French"
+msgstr "フランス語を使う"
+
+#: translation_demo.tscn
+msgid "Use Polish"
+msgstr "ポリッシュを使う"
+
+#: translation_demo.tscn
+msgid "Use Spanish"
+msgstr "スペイン語を使う"
+
+#: translation_demo.tscn
+msgid "Use Japanese"
+msgstr "日本語を使う"
+
+#: translation_demo.tscn
+msgid ""
+"This is a demo of how a game can be internationalized.\n"
+"Translations are created in a CSV file and then imported into Godot.\n"
+"\n"
+"Using a TTF/OTF font with CJK is required for this demo to run. One is "
+"provided\n"
+"in the font/ folder that you can use for your games.\n"
+"\n"
+"Godot allows internationalized text to change automatically when the locale "
+"is\n"
+"modified. Resources can also be set internationalized alternatives and "
+"replaced\n"
+"automatically on locale change."
+msgstr ""
+"これは、ゲームがどのように国際化されるかのデモです。\n"
+"翻訳はCSVファイルで作成され、Godotにインポートされます。\n"
+"\n"
+"このデモを実行するには、日中韓のTTF/OTFフォントが必要です。フォントは\n"
+"が用意されています。\n"
+"\n"
+"Godotでは、ロケールが変更されると国際化されたテキストが自動的に変更されま"
+"す。\n"
+"変更されます。リソースも国際化された選択肢を設定し、ロケールが変更されたとき"
+"に自動的に置き換えることができます。\n"
+"を自動的に置き換えることもできます。"
+
+#: translation_demo.tscn
+msgid "Hello!"
+msgstr "こんにちは！"
+
+#: translation_demo.tscn
+msgid "Click me"
+msgstr "クリック"
+
+#: items_menu.gd items_menu.tscn
+msgid "You currently have no fruit!"
+msgstr "あなたは現在、果実を持っていない！"
+
+#: items_menu.gd items_menu.tscn
+msgid "You currently have %d apple!"
+msgid_plural "You currently have %d apples!"
+msgstr[0] "現在、あなたは%d個のリンゴをお持ちです！"
+
+#: items_menu.gd items_menu.tscn
+msgid "You currently have %d brocoli!"
+msgid_plural "You currently have %d brocolis!"
+msgstr[0] "現在、ブロッコリーが%d個あります！"

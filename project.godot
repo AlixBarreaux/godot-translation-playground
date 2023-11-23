@@ -11,6 +11,9 @@ config_version=5
 [application]
 
 config/name="Translation Demo"
+config/name_localized={
+"fr": "Démo Traduction"
+}
 config/description="A demo showing how Godot seamlessly enables
 the use of localized resources and texts."
 run/main_scene="res://translation_demo.tscn"
@@ -33,10 +36,10 @@ singletons=[]
 [internationalization]
 
 locale/translation_remaps={
-"res://flags/flag_uk.png": PackedStringArray("res://flags/flag_spain.png:es", "res://flags/flag_japan.png:ja", "res://flags/flag_fr.png:fr"),
-"res://voices/hello_en.wav": PackedStringArray("res://voices/hello_es.wav:es", "res://voices/hello_jp.wav:ja", "res://voices/hello_fr.wav:fr")
+"res://flags/flag_uk.png": PackedStringArray("res://flags/flag_spain.png:es", "res://flags/flag_japan.png:ja", "res://flags/flag_fr.png:fr", "res://flags/flag_pl.png:pl"),
+"res://voices/hello_en.wav": PackedStringArray("res://voices/hello_es.wav:es", "res://voices/hello_jp.wav:ja", "res://voices/hello_fr.wav:fr", "res://voices/hello_pl.wav:pl")
 }
-locale/translations=PackedStringArray("res://locale/es/messages.mo", "res://locale/fr/messages.mo")
+locale/translations=PackedStringArray("res://locale/es/messages.mo", "res://locale/fr/messages.mo", "res://locale/pl/messages.mo", "res://locale/ja/messages_ja.mo")
 locale/translations_pot_files=PackedStringArray("res://translation_demo.tscn", "res://items_menu.gd", "res://items_menu.tscn")
 
 [locale]

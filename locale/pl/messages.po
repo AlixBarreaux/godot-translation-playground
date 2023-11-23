@@ -1,0 +1,92 @@
+# LANGUAGE translation for Translation Demo for the following files:
+# res://translation_demo.tscn
+# res://items_menu.gd
+# res://items_menu.tscn
+#
+# FIRST AUTHOR < EMAIL @ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Translation Demo\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 "
+"|| n%100>14) ? 1 : 2);\n"
+"X-Generator: Poedit 3.2.2\n"
+
+#: translation_demo.tscn
+msgid "Use English"
+msgstr "Użyj języka angielskiego"
+
+#: translation_demo.tscn
+msgid "Use French"
+msgstr "Użyj języka francuskiego"
+
+#: translation_demo.tscn
+msgid "Use Polish"
+msgstr "Użyj języka polskiego"
+
+#: translation_demo.tscn
+msgid "Use Spanish"
+msgstr "Używanie języka hiszpańskiego"
+
+#: translation_demo.tscn
+msgid "Use Japanese"
+msgstr "Użyj japońskiego"
+
+#: translation_demo.tscn
+msgid ""
+"This is a demo of how a game can be internationalized.\n"
+"Translations are created in a CSV file and then imported into Godot.\n"
+"\n"
+"Using a TTF/OTF font with CJK is required for this demo to run. One is "
+"provided\n"
+"in the font/ folder that you can use for your games.\n"
+"\n"
+"Godot allows internationalized text to change automatically when the locale "
+"is\n"
+"modified. Resources can also be set internationalized alternatives and "
+"replaced\n"
+"automatically on locale change."
+msgstr ""
+"Jest to demonstracja tego, jak można umiędzynarodowić grę.\n"
+"Tłumaczenia są tworzone w pliku CSV, a następnie importowane do Godota.\n"
+"\n"
+"Do uruchomienia tego demo wymagane jest użycie czcionki TTF/OTF z CJK. Jedna "
+"z nich jest dostępna\n"
+"w folderze font/, który można wykorzystać w swoich grach."
+
+#: translation_demo.tscn
+msgid "Hello!"
+msgstr "Cześć!"
+
+#: translation_demo.tscn
+msgid "Click me"
+msgstr "Kliknij mnie"
+
+#: items_menu.gd items_menu.tscn
+msgid "You currently have no fruit!"
+msgstr "Obecnie nie masz żadnych owoców!"
+
+#: items_menu.gd items_menu.tscn
+msgid "You currently have %d apple!"
+msgid_plural "You currently have %d apples!"
+msgstr[0] "Obecnie posiadasz %d jabłko!"
+msgstr[1] "Obecnie posiadasz %d jabłka!"
+msgstr[2] "Obecnie posiadasz %d jabłek!"
+
+#: items_menu.gd items_menu.tscn
+msgid "You currently have %d brocoli!"
+msgid_plural "You currently have %d brocolis!"
+msgstr[0] "Obecnie posiadasz %d brokuł!"
+msgstr[1] "Masz %d brokuły!"
+msgstr[2] "Masz %d brokułów!"
+
+#~ msgid "You currently have no apple!"
+#~ msgstr "Obecnie nie masz jabłka!"

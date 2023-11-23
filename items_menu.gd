@@ -26,11 +26,19 @@ func _on_brocolis_spin_box_value_changed(_value: float) -> void:
 	update_items_results_label()
 
 
-
 func update_items_results_label() -> void:
 	var apples_amount: int = int(apples_spin_box.value)
 	var brocolis_amount: int = int(brocolis_spin_box.value)
 	
-	var apples_result: String = tr_n("You currently have %d apple!", "You currently have %d apples!", apples_amount) % apples_amount
-	var brocolis_result: String = tr_n("You currently have %d brocoli!", "You currently have %d brocolis!", brocolis_amount) % brocolis_amount
+	var apples_result: String = ""
+	var brocolis_result: String = ""
+	
+	if apples_amount == 0 and brocolis_amount == 0:
+		print("No fruit!")
+		items_result_label.text = tr("You currently have no fruit!")
+		return
+	
+	apples_result = tr_n("You currently have %d apple!", "You currently have %d apples!", apples_amount) % apples_amount
+	brocolis_result = tr_n("You currently have %d brocoli!", "You currently have %d brocolis!", brocolis_amount) % brocolis_amount
+	
 	items_result_label.text = apples_result + "\n" + brocolis_result

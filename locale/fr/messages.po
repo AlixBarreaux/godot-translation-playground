@@ -21,6 +21,10 @@ msgid "Use French"
 msgstr "Utiliser le Français"
 
 #: translation_demo.tscn
+msgid "Use Polish"
+msgstr "Utiliser le Polonais"
+
+#: translation_demo.tscn
 msgid "Use Spanish"
 msgstr "Utiliser l'Espagnol"
 
@@ -42,7 +46,18 @@ msgid ""
 "modified. Resources can also be set internationalized alternatives and "
 "replaced\n"
 "automatically on locale change."
-msgstr "Blablabla tout le text trop long à traduire..."
+msgstr ""
+"Ceci est une démo concernant comment un jeu peut être internationalisé.\n"
+"Les traductions sont crées dans un fichier CSV et sont ensuite importées "
+"dans Godot.\n"
+"Utiliser une police TTF/OTF avec CJK est requis afin que la démo puisse "
+"fonctionner. Une police est fournie.\n"
+"dans le dossier font/ que vous pouvez utiliser pour vos jeux.\n"
+"\n"
+"Godot autorise le text internationalisé à changer automatiquement quand la "
+"localisation est modifiée.\n"
+"Des alternatives peuvent aussi être appliquées aux ressources qui elles-"
+"même peuvent être remplacées."
 
 #: translation_demo.tscn
 msgid "Hello!"
@@ -51,6 +66,10 @@ msgstr "Bonjour!"
 #: translation_demo.tscn
 msgid "Click me"
 msgstr "Cliquez sur moi"
+
+#: items_menu.gd items_menu.tscn
+msgid "You currently have no fruit!"
+msgstr "Vous n'avez actuellement pas de fruit!"
 
 #: items_menu.gd items_menu.tscn
 msgid "You currently have %d apple!"

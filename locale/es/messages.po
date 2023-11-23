@@ -21,19 +21,23 @@ msgstr ""
 
 #: translation_demo.tscn
 msgid "Use English"
-msgstr ""
+msgstr "Utilizar el inglés"
 
 #: translation_demo.tscn
 msgid "Use French"
-msgstr ""
+msgstr "Utilizar el francés"
+
+#: translation_demo.tscn
+msgid "Use Polish"
+msgstr "Utilizar polaco"
 
 #: translation_demo.tscn
 msgid "Use Spanish"
-msgstr ""
+msgstr "Utilizar el español"
 
 #: translation_demo.tscn
 msgid "Use Japanese"
-msgstr ""
+msgstr "Utilizar el japonés"
 
 #: translation_demo.tscn
 msgid ""
@@ -50,23 +54,41 @@ msgid ""
 "replaced\n"
 "automatically on locale change."
 msgstr ""
+"Esta es una demostración de cómo se puede internacionalizar un juego.\n"
+"Las traducciones se crean en un archivo CSV y luego se importan a Godot.\n"
+"\n"
+"Es necesario utilizar una fuente TTF/OTF con CJK para que esta demo "
+"funcione. Se proporciona una\n"
+"en la carpeta font/ que puede utilizar para sus juegos."
 
 #: translation_demo.tscn
 msgid "Hello!"
-msgstr ""
+msgstr "¡Hola!"
 
 #: translation_demo.tscn
 msgid "Click me"
-msgstr ""
+msgstr "Hazme clic"
+
+#: items_menu.gd items_menu.tscn
+msgid "You currently have no fruit!"
+msgstr "¡Actualmente no tienes fruta!"
 
 #: items_menu.gd items_menu.tscn
 msgid "You currently have %d apple!"
 msgid_plural "You currently have %d apples!"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "¡Actualmente tiene %d manzana!"
+msgstr[1] "¡Actualmente tienes %d manzanas!"
 
 #: items_menu.gd items_menu.tscn
 msgid "You currently have %d brocoli!"
 msgid_plural "You currently have %d brocolis!"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "¡Actualmente tiene %d brócoli!"
+msgstr[1] "¡Actualmente tienes %d brócolis!"
+
+#, fuzzy
+#~| msgid "You currently have no brocoli!"
+#~ msgid "You have no fruit!"
+#~ msgstr "¡Actualmente no tiene brócoli!"
+
+#~ msgid "You currently have one apple!"
+#~ msgstr "¡Actualmente tiene una manzana!"
