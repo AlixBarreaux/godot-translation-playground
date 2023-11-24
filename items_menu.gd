@@ -41,6 +41,3 @@ func update_items_results_label() -> void:
 	brocolis_result = tr_n("You currently have %d brocolis!", "You currently have %d brocolis!", brocolis_amount) % brocolis_amount
 	
 	items_result_label.text = apples_result + "\n" + brocolis_result
-	
-	print("DEBUG - Apples amount: ", apples_amount)
-	print("DEBUG - Brocolis amount: ", brocolis_amount, "\n")
