@@ -17,8 +17,16 @@ msgid "Use English"
 msgstr "Utiliser l'Anglais"
 
 #: translation_demo.tscn
+msgid "Use Arabic"
+msgstr "Utiliser l'Arabe"
+
+#: translation_demo.tscn
 msgid "Use French"
 msgstr "Utiliser le Français"
+
+#: translation_demo.tscn
+msgid "Use Japanese"
+msgstr "Utiliser le Japonais"
 
 #: translation_demo.tscn
 msgid "Use Polish"
@@ -27,10 +35,6 @@ msgstr "Utiliser le Polonais"
 #: translation_demo.tscn
 msgid "Use Spanish"
 msgstr "Utiliser l'Espagnol"
-
-#: translation_demo.tscn
-msgid "Use Japanese"
-msgstr "Utiliser le Japonais"
 
 #: translation_demo.tscn
 msgid ""
@@ -56,8 +60,8 @@ msgstr ""
 "\n"
 "Godot autorise le text internationalisé à changer automatiquement quand la "
 "localisation est modifiée.\n"
-"Des alternatives peuvent aussi être appliquées aux ressources qui elles-"
-"même peuvent être remplacées."
+"Des alternatives peuvent aussi être appliquées aux ressources qui elles-même "
+"peuvent être remplacées."
 
 #: translation_demo.tscn
 msgid "Hello!"

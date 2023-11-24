@@ -24,8 +24,16 @@ msgid "Use English"
 msgstr "Utilizar el inglés"
 
 #: translation_demo.tscn
+msgid "Use Arabic"
+msgstr "Usar árabe"
+
+#: translation_demo.tscn
 msgid "Use French"
 msgstr "Utilizar el francés"
+
+#: translation_demo.tscn
+msgid "Use Japanese"
+msgstr "Utilizar el japonés"
 
 #: translation_demo.tscn
 msgid "Use Polish"
@@ -34,10 +42,6 @@ msgstr "Utilizar polaco"
 #: translation_demo.tscn
 msgid "Use Spanish"
 msgstr "Utilizar el español"
-
-#: translation_demo.tscn
-msgid "Use Japanese"
-msgstr "Utilizar el japonés"
 
 #: translation_demo.tscn
 msgid ""

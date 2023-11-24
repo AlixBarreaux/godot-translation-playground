@@ -34,11 +34,13 @@ func update_items_results_label() -> void:
 	var brocolis_result: String = ""
 	
 	if apples_amount == 0 and brocolis_amount == 0:
-		print("No fruit!")
-		items_result_label.text = tr("You currently have no fruit!")
+		items_result_label.text = tr("You currently have no fruits!")
 		return
 	
-	apples_result = tr_n("You currently have %d apple!", "You currently have %d apples!", apples_amount) % apples_amount
-	brocolis_result = tr_n("You currently have %d brocoli!", "You currently have %d brocolis!", brocolis_amount) % brocolis_amount
+	apples_result = tr_n("You currently have %d apples!", "You currently have %d apples!", apples_amount) % apples_amount
+	brocolis_result = tr_n("You currently have %d brocolis!", "You currently have %d brocolis!", brocolis_amount) % brocolis_amount
 	
 	items_result_label.text = apples_result + "\n" + brocolis_result
+	
+	print("DEBUG - Apples amount: ", apples_amount)
+	print("DEBUG - Brocolis amount: ", brocolis_amount, "\n")

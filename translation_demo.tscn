@@ -39,11 +39,23 @@ size_flags_horizontal = 3
 size_flags_vertical = 2
 text = "Use English"
 
+[node name="Arabic" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 2
+text = "Use Arabic"
+
 [node name="French" type="Button" parent="VBoxContainer"]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 2
 text = "Use French"
+
+[node name="Japanese" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 2
+text = "Use Japanese"
 
 [node name="Polish" type="Button" parent="VBoxContainer"]
 layout_mode = 2
@@ -56,12 +68,6 @@ layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 2
 text = "Use Spanish"
-
-[node name="Japanese" type="Button" parent="VBoxContainer"]
-layout_mode = 2
-size_flags_horizontal = 3
-size_flags_vertical = 2
-text = "Use Japanese"
 
 [node name="Description" type="Label" parent="."]
 layout_mode = 2
@@ -91,9 +97,9 @@ offset_bottom = 370.0
 
 [node name="HelloText" type="Label" parent="."]
 layout_mode = 0
-offset_left = 246.0
+offset_left = 189.0
 offset_top = 381.0
-offset_right = 475.0
+offset_right = 418.0
 offset_bottom = 405.0
 size_flags_vertical = 0
 theme_override_fonts/font = ExtResource("3_4teg3")
@@ -103,35 +109,34 @@ vertical_alignment = 1
 
 [node name="PlayAudio" type="Button" parent="."]
 layout_mode = 0
-offset_left = 243.0
+offset_left = 186.0
 offset_top = 442.0
-offset_right = 475.0
-offset_bottom = 467.0
+offset_right = 418.0
+offset_bottom = 474.0
 theme_override_fonts/font = ExtResource("2_qi2qa")
 text = "Click me"
 icon = ExtResource("3")
 
 [node name="Flag" type="TextureRect" parent="."]
 layout_mode = 0
-offset_left = 85.0
 offset_top = 382.0
-offset_right = 213.0
+offset_right = 128.0
 offset_bottom = 467.0
 texture = ExtResource("4_123i0")
 
 [node name="ItemsMenu" parent="." instance=ExtResource("6_pmrqs")]
 layout_mode = 1
-offset_left = -15.0
 offset_top = -78.0
-offset_right = 15.0
+offset_right = 30.0
 offset_bottom = 18.0
 
 [node name="Audio" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("5_sgrcn")
 
 [connection signal="pressed" from="VBoxContainer/English" to="." method="_on_english_pressed"]
+[connection signal="pressed" from="VBoxContainer/Arabic" to="." method="_on_arabic_pressed"]
 [connection signal="pressed" from="VBoxContainer/French" to="." method="_on_french_pressed"]
+[connection signal="pressed" from="VBoxContainer/Japanese" to="." method="_on_japanese_pressed"]
 [connection signal="pressed" from="VBoxContainer/Polish" to="." method="_on_polish_pressed"]
 [connection signal="pressed" from="VBoxContainer/Spanish" to="." method="_on_spanish_pressed"]
-[connection signal="pressed" from="VBoxContainer/Japanese" to="." method="_on_japanese_pressed"]
 [connection signal="pressed" from="PlayAudio" to="." method="_on_play_pressed"]

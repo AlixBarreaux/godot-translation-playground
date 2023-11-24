@@ -1,17 +1,6 @@
-[gd_scene load_steps=3 format=3 uid="uid://c6cmg77fwn7wb"]
+[gd_scene load_steps=2 format=3 uid="uid://c6cmg77fwn7wb"]
 
 [ext_resource type="Script" path="res://items_menu.gd" id="1_ynmp1"]
-
-[sub_resource type="FontFile" id="FontFile_34j3i"]
-subpixel_positioning = 0
-msdf_pixel_range = 14
-msdf_size = 128
-cache/0/16/0/ascent = 0.0
-cache/0/16/0/descent = 0.0
-cache/0/16/0/underline_position = 0.0
-cache/0/16/0/underline_thickness = 0.0
-cache/0/16/0/scale = 1.0
-cache/0/16/0/kerning_overrides/16/0 = Vector2(0, 0)
 
 [node name="ItemsMenu" type="HBoxContainer"]
 anchors_preset = 12
@@ -56,7 +45,6 @@ auto_translate = false
 [node name="Label" type="Label" parent="ItemsResultMenu"]
 layout_mode = 2
 auto_translate = false
-theme_override_fonts/font = SubResource("FontFile_34j3i")
 text = "Apples Text"
 horizontal_alignment = 1
 vertical_alignment = 1

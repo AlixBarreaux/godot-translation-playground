@@ -18,7 +18,15 @@ msgid "Use English"
 msgstr ""
 
 #: translation_demo.tscn
+msgid "Use Arabic"
+msgstr ""
+
+#: translation_demo.tscn
 msgid "Use French"
+msgstr ""
+
+#: translation_demo.tscn
+msgid "Use Japanese"
 msgstr ""
 
 #: translation_demo.tscn
@@ -27,10 +35,6 @@ msgstr ""
 
 #: translation_demo.tscn
 msgid "Use Spanish"
-msgstr ""
-
-#: translation_demo.tscn
-msgid "Use Japanese"
 msgstr ""
 
 #: translation_demo.tscn
@@ -56,19 +60,19 @@ msgstr ""
 
 #: items_menu.gd
 #: items_menu.tscn
-msgid "You currently have no fruit!"
+msgid "You currently have no fruits!"
 msgstr ""
 
 #: items_menu.gd
 #: items_menu.tscn
-msgid "You currently have %d apple!"
+msgid "You currently have %d apples!"
 msgid_plural "You currently have %d apples!"
 msgstr[0] ""
 msgstr[1] ""
 
 #: items_menu.gd
 #: items_menu.tscn
-msgid "You currently have %d brocoli!"
+msgid "You currently have %d brocolis!"
 msgid_plural "You currently have %d brocolis!"
 msgstr[0] ""
 msgstr[1] ""

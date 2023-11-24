@@ -33,13 +33,17 @@ window/stretch/aspect="expand"
 
 singletons=[]
 
+[gui]
+
+theme/custom_font="res://fonts/DroidSans.ttf"
+
 [internationalization]
 
 locale/translation_remaps={
-"res://flags/flag_uk.png": PackedStringArray("res://flags/flag_spain.png:es", "res://flags/flag_japan.png:ja", "res://flags/flag_fr.png:fr", "res://flags/flag_pl.png:pl"),
-"res://voices/hello_en.wav": PackedStringArray("res://voices/hello_es.wav:es", "res://voices/hello_jp.wav:ja", "res://voices/hello_fr.wav:fr", "res://voices/hello_pl.wav:pl")
+"res://flags/flag_uk.png": PackedStringArray("res://flags/flag_spain.png:es", "res://flags/flag_japan.png:ja", "res://flags/flag_fr.png:fr", "res://flags/flag_pl.png:pl", "res://flags/flag_ar_ae.png:ar_AE"),
+"res://voices/hello_en.wav": PackedStringArray("res://voices/hello_es.wav:es", "res://voices/hello_jp.wav:ja", "res://voices/hello_fr.wav:fr", "res://voices/hello_pl.wav:pl", "res://voices/hello_ar_ae.wav:ar_AE")
 }
-locale/translations=PackedStringArray("res://locale/es/messages.mo", "res://locale/fr/messages.mo", "res://locale/pl/messages.mo", "res://locale/ja/messages_ja.mo")
+locale/translations=PackedStringArray("res://locale/es/messages.mo", "res://locale/fr/messages.mo", "res://locale/pl/messages.mo", "res://locale/ja/messages_ja.mo", "res://locale/ar-ae/messages_ar_ae.mo")
 locale/translations_pot_files=PackedStringArray("res://translation_demo.tscn", "res://items_menu.gd", "res://items_menu.tscn")
 
 [locale]
