@@ -30,6 +30,10 @@ msgid "Use French"
 msgstr ""
 
 #: translation_demo.tscn
+msgid "Use Hebrew"
+msgstr ""
+
+#: translation_demo.tscn
 msgid "Use Japanese"
 msgstr ""
 
@@ -43,6 +47,10 @@ msgstr ""
 
 #: translation_demo.tscn
 msgid "Use Spanish"
+msgstr ""
+
+#: translation_demo.tscn
+msgid "Use Thai"
 msgstr ""
 
 #: translation_demo.tscn

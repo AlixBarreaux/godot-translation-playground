@@ -18,6 +18,14 @@ func _on_french_pressed() -> void:
 	change_language_to("fr")
 
 
+func _on_hebrew_pressed() -> void:
+	change_language_to("he")
+
+
+func _on_japanese_pressed():
+	change_language_to("ja")
+
+
 func _on_polish_pressed() -> void:
 	change_language_to("pl")
 
@@ -30,8 +38,8 @@ func _on_spanish_pressed():
 	change_language_to("es")
 
 
-func _on_japanese_pressed():
-	change_language_to("ja")
+func _on_thai_pressed() -> void:
+	change_language_to("th")
 
 
 signal language_changed

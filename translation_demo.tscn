@@ -26,7 +26,6 @@ theme = ExtResource("1_k5hjs")
 script = ExtResource("1")
 
 [node name="ScrollContainer" type="ScrollContainer" parent="."]
-clip_contents = false
 custom_minimum_size = Vector2(350, 0)
 layout_mode = 2
 offset_top = 15.0
@@ -62,6 +61,12 @@ size_flags_horizontal = 3
 size_flags_vertical = 2
 text = "Use French"
 
+[node name="Hebrew" type="Button" parent="ScrollContainer/VBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 2
+text = "Use Hebrew"
+
 [node name="Japanese" type="Button" parent="ScrollContainer/VBoxContainer"]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -85,6 +90,12 @@ layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 2
 text = "Use Spanish"
+
+[node name="Thai" type="Button" parent="ScrollContainer/VBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 2
+text = "Use Thai"
 
 [node name="Description" type="Label" parent="."]
 layout_mode = 2
@@ -151,8 +162,10 @@ stream = ExtResource("5_sgrcn")
 [connection signal="pressed" from="ScrollContainer/VBoxContainer/Arabic" to="." method="_on_arabic_pressed"]
 [connection signal="pressed" from="ScrollContainer/VBoxContainer/Chinese" to="." method="_on_chinese_pressed"]
 [connection signal="pressed" from="ScrollContainer/VBoxContainer/French" to="." method="_on_french_pressed"]
+[connection signal="pressed" from="ScrollContainer/VBoxContainer/Hebrew" to="." method="_on_hebrew_pressed"]
 [connection signal="pressed" from="ScrollContainer/VBoxContainer/Japanese" to="." method="_on_japanese_pressed"]
 [connection signal="pressed" from="ScrollContainer/VBoxContainer/Polish" to="." method="_on_polish_pressed"]
 [connection signal="pressed" from="ScrollContainer/VBoxContainer/Russian" to="." method="_on_russian_pressed"]
 [connection signal="pressed" from="ScrollContainer/VBoxContainer/Spanish" to="." method="_on_spanish_pressed"]
+[connection signal="pressed" from="ScrollContainer/VBoxContainer/Thai" to="." method="_on_thai_pressed"]
 [connection signal="pressed" from="PlayAudio" to="." method="_on_play_pressed"]

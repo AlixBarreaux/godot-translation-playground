@@ -1,0 +1,107 @@
+# LANGUAGE translation for Translation Demo for the following files:
+# res://translation_demo.tscn
+# res://items_menu.gd
+# res://items_menu.tscn
+#
+# FIRST AUTHOR < EMAIL @ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Translation Demo\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: th\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.2.2\n"
+
+#: translation_demo.tscn
+msgid "Use English"
+msgstr "ใช้ภาษาอังกฤษ"
+
+#: translation_demo.tscn
+msgid "Use Arabic"
+msgstr "ใช้ภาษาอาหรับ"
+
+#: translation_demo.tscn
+msgid "Use Chinese"
+msgstr "ใช้ภาษาจีน"
+
+#: translation_demo.tscn
+msgid "Use French"
+msgstr "ใช้ภาษาฝรั่งเศส"
+
+#: translation_demo.tscn
+msgid "Use Hebrew"
+msgstr "ใช้ภาษาฮิบรู"
+
+#: translation_demo.tscn
+msgid "Use Japanese"
+msgstr "ใช้ภาษาญี่ปุ่น"
+
+#: translation_demo.tscn
+msgid "Use Polish"
+msgstr "ใช้ภาษาโปแลนด์"
+
+#: translation_demo.tscn
+msgid "Use Russian"
+msgstr "ใช้ภาษารัสเซีย"
+
+#: translation_demo.tscn
+msgid "Use Spanish"
+msgstr "ใช้ภาษาสเปน"
+
+#: translation_demo.tscn
+msgid "Use Thai"
+msgstr "ใช้ภาษาไทย"
+
+#: translation_demo.tscn
+msgid ""
+"This is a demo of how a game can be internationalized.\n"
+"Translations are created in a CSV file and then imported into Godot.\n"
+"\n"
+"Using a TTF/OTF font with CJK is required for this demo to run. One is "
+"provided\n"
+"in the font/ folder that you can use for your games.\n"
+"\n"
+"Godot allows internationalized text to change automatically when the locale "
+"is\n"
+"modified. Resources can also be set internationalized alternatives and "
+"replaced\n"
+"automatically on locale change."
+msgstr ""
+"นี่เป็นการสาธิตว่าเกมสามารถทําให้เป็นสากลได้อย่างไร.\n"
+"การแปลจะถูกสร้างขึ้นในไฟล์ CSV แล้วนําเข้าสู่ Godot.\n"
+"\n"
+"จําเป็นต้องใช้แบบอักษร TTF/OTF กับ CJK เพื่อให้การสาธิตนี้ทํางาน. มีหนึ่งให้\n"
+"ในแบบอักษร/โฟลเดอร์ที่คุณสามารถใช้สําหรับเกมของคุณ.\n"
+"\n"
+"Godot อนุญาตให้ข้อความที่เป็นสากลเปลี่ยนแปลงโดยอัตโนมัติเมื่อสถานที่นั้นอยู่\n"
+"แก้ไข. ทรัพยากรยังสามารถตั้งค่าทางเลือกที่เป็นสากลและเปลี่ยนใหม่ได้\n"
+"โดยอัตโนมัติในการเปลี่ยนสถานที่."
+
+#: translation_demo.tscn
+msgid "Hello!"
+msgstr "สวัสดี!"
+
+#: translation_demo.tscn
+msgid "Click me"
+msgstr "คลิกฉัน"
+
+#: items_menu.gd items_menu.tscn
+msgid "You currently have no fruits!"
+msgstr "ขณะนี้คุณไม่มีผลไม้!"
+
+#: items_menu.gd items_menu.tscn
+msgid "You currently have %d apples!"
+msgid_plural "You currently have %d apples!"
+msgstr[0] "ขณะนี้คุณมีแอปเปิ้ล %d ลูก!"
+
+#: items_menu.gd items_menu.tscn
+msgid "You currently have %d brocolis!"
+msgid_plural "You currently have %d brocolis!"
+msgstr[0] "ขณะนี้คุณมีบรอกโคลิส %d ตัว!"
