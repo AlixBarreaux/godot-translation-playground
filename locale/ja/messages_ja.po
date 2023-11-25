@@ -28,6 +28,10 @@ msgid "Use Arabic"
 msgstr "アラビア語を使う"
 
 #: translation_demo.tscn
+msgid "Use Chinese"
+msgstr "中国語を使う"
+
+#: translation_demo.tscn
 msgid "Use French"
 msgstr "フランス語を使う"
 
@@ -38,6 +42,10 @@ msgstr "日本語を使う"
 #: translation_demo.tscn
 msgid "Use Polish"
 msgstr "ポリッシュを使う"
+
+#: translation_demo.tscn
+msgid "Use Russian"
+msgstr "ロシア語を使用"
 
 #: translation_demo.tscn
 msgid "Use Spanish"
@@ -79,15 +87,15 @@ msgid "Click me"
 msgstr "クリック"
 
 #: items_menu.gd items_menu.tscn
-msgid "You currently have no fruit!"
+msgid "You currently have no fruits!"
 msgstr "あなたは現在、果実を持っていない！"
 
 #: items_menu.gd items_menu.tscn
-msgid "You currently have %d apple!"
+msgid "You currently have %d apples!"
 msgid_plural "You currently have %d apples!"
 msgstr[0] "現在、あなたは%d個のリンゴをお持ちです！"
 
 #: items_menu.gd items_menu.tscn
-msgid "You currently have %d brocoli!"
+msgid "You currently have %d brocolis!"
 msgid_plural "You currently have %d brocolis!"
 msgstr[0] "現在、ブロッコリーが%d個あります！"

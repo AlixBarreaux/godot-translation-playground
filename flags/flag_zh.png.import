@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cmepdlt5k64ed"
-path="res://.godot/imported/flag_spain.png-cd0074426407c68da767795fb0d7207e.ctex"
+uid="uid://b57ojix5gi4l0"
+path="res://.godot/imported/flag_zh.png-604b296aa30c2efa8ebca099d531eb9d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://flags/flag_spain.png"
-dest_files=["res://.godot/imported/flag_spain.png-cd0074426407c68da767795fb0d7207e.ctex"]
+source_file="res://flags/flag_zh.png"
+dest_files=["res://.godot/imported/flag_zh.png-604b296aa30c2efa8ebca099d531eb9d.ctex"]
 
 [params]
 

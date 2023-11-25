@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c1rt5bovkq65k"
-path="res://.godot/imported/flag_japan.png-1c91a4698debb48b48e28754da6d965e.ctex"
+uid="uid://op62qlp83x7g"
+path="res://.godot/imported/flag_ru.png-f38c92369348e6f415c4b45c352ad819.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://flags/flag_japan.png"
-dest_files=["res://.godot/imported/flag_japan.png-1c91a4698debb48b48e28754da6d965e.ctex"]
+source_file="res://flags/flag_ru.png"
+dest_files=["res://.godot/imported/flag_ru.png-f38c92369348e6f415c4b45c352ad819.ctex"]
 
 [params]
 

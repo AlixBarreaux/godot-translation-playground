@@ -1,6 +1,8 @@
+ScrollContainer
+ProgressBar
+Label
 SpinBox
 HBoxContainer
 ColorRect
 VBoxContainer
-Label
 TextEdit

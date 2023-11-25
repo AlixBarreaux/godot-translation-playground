@@ -10,12 +10,20 @@ func _on_arabic_pressed() -> void:
 	change_language_to("ar")
 
 
+func _on_chinese_pressed() -> void:
+	change_language_to("zh")
+
+
 func _on_french_pressed() -> void:
 	change_language_to("fr")
 
 
 func _on_polish_pressed() -> void:
 	change_language_to("pl")
+
+
+func _on_russian_pressed() -> void:
+	change_language_to("ru")
 
 
 func _on_spanish_pressed():
@@ -35,7 +43,3 @@ func change_language_to(to_new_locale: String) -> void:
 
 func _on_play_pressed():
 	$Audio.play()
-
-
-
-
