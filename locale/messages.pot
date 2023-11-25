@@ -88,7 +88,7 @@ msgstr[1] ""
 
 #: items_menu.gd
 #: items_menu.tscn
-msgid "You currently have %d brocolis!"
-msgid_plural "You currently have %d brocolis!"
+msgid "You currently have %d broccolis!"
+msgid_plural "You currently have %d broccolis!"
 msgstr[0] ""
 msgstr[1] ""

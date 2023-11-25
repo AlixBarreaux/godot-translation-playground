@@ -2,3 +2,4 @@ res://translation_demo.tscn
 res://items_menu.tscn
 res://translation_demo.gd
 res://themes/main_theme.tres
+res://items_menu.gd
