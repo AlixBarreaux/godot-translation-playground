@@ -25,15 +25,15 @@ color = Color(1, 0.12549, 0.0862745, 1)
 layout_mode = 2
 value = 1.0
 
-[node name="BrocolisMenu" type="VBoxContainer" parent="."]
+[node name="BroccolisMenu" type="VBoxContainer" parent="."]
 layout_mode = 2
 
-[node name="ColorRect" type="ColorRect" parent="BrocolisMenu"]
+[node name="ColorRect" type="ColorRect" parent="BroccolisMenu"]
 layout_mode = 2
 size_flags_vertical = 3
 color = Color(0, 0.466667, 0, 1)
 
-[node name="SpinBox" type="SpinBox" parent="BrocolisMenu"]
+[node name="SpinBox" type="SpinBox" parent="BroccolisMenu"]
 layout_mode = 2
 value = 1.0
 
@@ -50,4 +50,4 @@ horizontal_alignment = 1
 vertical_alignment = 1
 
 [connection signal="value_changed" from="ApplesMenu/SpinBox" to="." method="_on_apples_spin_box_value_changed"]
-[connection signal="value_changed" from="BrocolisMenu/SpinBox" to="." method="_on_brocolis_spin_box_value_changed"]
+[connection signal="value_changed" from="BroccolisMenu/SpinBox" to="." method="_on_broccolis_spin_box_value_changed"]
