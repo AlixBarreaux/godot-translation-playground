@@ -14,6 +14,16 @@ msgstr ""
 "Content-Transfer-Encoding: 8-bit\n"
 
 #: translation_demo.tscn
+msgctxt "Menu actions"
+msgid "Close"
+msgstr ""
+
+#: translation_demo.tscn
+msgctxt "Distance"
+msgid "Close"
+msgstr ""
+
+#: translation_demo.tscn
 msgid "Use English"
 msgstr ""
 

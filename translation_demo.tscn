@@ -158,6 +158,31 @@ offset_bottom = 18.0
 [node name="Audio" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("5_sgrcn")
 
+[node name="CloseButton" type="Button" parent="."]
+layout_mode = 0
+offset_left = 529.0
+offset_top = 393.0
+offset_right = 694.0
+offset_bottom = 448.0
+auto_translate = false
+text = "Close"
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 0
+offset_left = 776.0
+offset_top = 393.0
+offset_right = 1028.0
+offset_bottom = 446.0
+
+[node name="Label" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+auto_translate = false
+text = "(Context test FR only) Distance:"
+
+[node name="DistanceLabel" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+text = "..."
+
 [connection signal="pressed" from="ScrollContainer/VBoxContainer/English" to="." method="_on_english_pressed"]
 [connection signal="pressed" from="ScrollContainer/VBoxContainer/Arabic" to="." method="_on_arabic_pressed"]
 [connection signal="pressed" from="ScrollContainer/VBoxContainer/Chinese" to="." method="_on_chinese_pressed"]

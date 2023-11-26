@@ -13,6 +13,16 @@ msgstr ""
 "X-Generator: Poedit 3.2.2\n"
 
 #: translation_demo.tscn
+msgctxt "Menu actions"
+msgid "Close"
+msgstr "Fermer"
+
+#: translation_demo.tscn
+msgctxt "Distance"
+msgid "Close"
+msgstr "Proche"
+
+#: translation_demo.tscn
 msgid "Use English"
 msgstr "Utiliser l'anglais"
 
@@ -102,6 +112,12 @@ msgid "You currently have %d broccolis!"
 msgid_plural "You currently have %d broccolis!"
 msgstr[0] "Vous avez actuellement %d brocoli!"
 msgstr[1] "Vous avez actuellement %d brocolis!"
+
+#, fuzzy
+#~| msgctxt "Menu actions"
+#~| msgid "Close"
+#~ msgid "Close"
+#~ msgstr "Fermer"
 
 #~ msgid "APPLES_TEXT"
 #~ msgstr ""

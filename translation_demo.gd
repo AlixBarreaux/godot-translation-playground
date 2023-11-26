@@ -51,3 +51,15 @@ func change_language_to(to_new_locale: String) -> void:
 
 func _on_play_pressed():
 	$Audio.play()
+
+
+func _ready():
+	self.language_changed.connect(on_language_changed)
+
+
+@onready var close_button: Button = $CloseButton
+@onready var distance_label: Label = $VBoxContainer/DistanceLabel
+
+func on_language_changed() -> void:
+	close_button.text = tr("Close", "Menu actions")
+	distance_label.text = tr("Close", "Distance")
