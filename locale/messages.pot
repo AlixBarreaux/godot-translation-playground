@@ -1,14 +1,14 @@
-# LANGUAGE translation for Translation Demo for the following files:
+# LANGUAGE translation for Godot Translation Example for the following files:
 # res://translation_demo.tscn
 # res://items_menu.gd
 # res://items_menu.tscn
 #
-# FIRST AUTHOR < EMAIL @ADDRESS>, YEAR.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Translation Demo\n"
+"Project-Id-Version: Godot Translation Example\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8-bit\n"
@@ -84,6 +84,10 @@ msgstr ""
 msgid "Click me"
 msgstr ""
 
+#: translation_demo.tscn
+msgid "..."
+msgstr ""
+
 #: items_menu.gd
 #: items_menu.tscn
 msgid "You currently have no fruits!"
@@ -91,14 +95,14 @@ msgstr ""
 
 #: items_menu.gd
 #: items_menu.tscn
-msgid "You currently have %d apples!"
+msgid "You currently have %d apple!"
 msgid_plural "You currently have %d apples!"
 msgstr[0] ""
 msgstr[1] ""
 
 #: items_menu.gd
 #: items_menu.tscn
-msgid "You currently have %d broccolis!"
+msgid "You currently have %d broccoli!"
 msgid_plural "You currently have %d broccolis!"
 msgstr[0] ""
 msgstr[1] ""

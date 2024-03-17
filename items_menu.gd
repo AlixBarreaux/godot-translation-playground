@@ -37,7 +37,7 @@ func update_items_results_label() -> void:
 		items_result_label.text = tr("You currently have no fruits!")
 		return
 	
-	apples_result = tr_n("You currently have %d apples!", "You currently have %d apples!", apples_amount) % apples_amount
-	broccolis_result = tr_n("You currently have %d broccolis!", "You currently have %d broccolis!", broccolis_amount) % broccolis_amount
+	apples_result = tr_n("You currently have %d apple!", "You currently have %d apples!", apples_amount) % apples_amount
+	broccolis_result = tr_n("You currently have %d broccoli!", "You currently have %d broccolis!", broccolis_amount) % broccolis_amount
 	
 	items_result_label.text = apples_result + "\n" + broccolis_result

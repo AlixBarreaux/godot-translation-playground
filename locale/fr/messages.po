@@ -97,18 +97,22 @@ msgstr "Bonjour!"
 msgid "Click me"
 msgstr "Cliquez sur moi"
 
+#: translation_demo.tscn
+msgid "..."
+msgstr ""
+
 #: items_menu.gd items_menu.tscn
 msgid "You currently have no fruits!"
 msgstr "Vous n'avez actuellement pas de fruit!"
 
 #: items_menu.gd items_menu.tscn
-msgid "You currently have %d apples!"
+msgid "You currently have %d apple!"
 msgid_plural "You currently have %d apples!"
 msgstr[0] "Vous avez actuellement %d pomme!"
 msgstr[1] "Vous avez actuellement %d pommes!"
 
 #: items_menu.gd items_menu.tscn
-msgid "You currently have %d broccolis!"
+msgid "You currently have %d broccoli!"
 msgid_plural "You currently have %d broccolis!"
 msgstr[0] "Vous avez actuellement %d brocoli!"
 msgstr[1] "Vous avez actuellement %d brocolis!"

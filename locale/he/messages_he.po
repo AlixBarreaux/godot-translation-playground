@@ -21,6 +21,16 @@ msgstr ""
 "X-Generator: Poedit 3.2.2\n"
 
 #: translation_demo.tscn
+msgctxt "Menu actions"
+msgid "Close"
+msgstr "קרוב"
+
+#: translation_demo.tscn
+msgctxt "Distance"
+msgid "Close"
+msgstr "קרוב"
+
+#: translation_demo.tscn
 msgid "Use English"
 msgstr "השתמש באנגלית"
 
@@ -93,12 +103,16 @@ msgstr "שלום!"
 msgid "Click me"
 msgstr "לחץ עלי"
 
+#: translation_demo.tscn
+msgid "..."
+msgstr ""
+
 #: items_menu.gd items_menu.tscn
 msgid "You currently have no fruits!"
 msgstr "כרגע אין לך פירות!"
 
 #: items_menu.gd items_menu.tscn
-msgid "You currently have %d apples!"
+msgid "You currently have %d apple!"
 msgid_plural "You currently have %d apples!"
 msgstr[0] "כרגע יש לך תפוח אחד!"
 msgstr[1] "כרגע יש לך %d תפוחים!"
@@ -106,7 +120,7 @@ msgstr[2] "כרגע יש לך %d תפוחים!"
 msgstr[3] "כרגע יש לך %d תפוחים!"
 
 #: items_menu.gd items_menu.tscn
-msgid "You currently have %d broccolis!"
+msgid "You currently have %d broccoli!"
 msgid_plural "You currently have %d broccolis!"
 msgstr[0] "כרגע יש לך ברוקולי אחד!"
 msgstr[1] "כרגע יש לך %d ברוקולי!"

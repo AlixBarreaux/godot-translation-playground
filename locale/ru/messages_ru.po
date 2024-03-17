@@ -21,6 +21,16 @@ msgstr ""
 "X-Generator: Poedit 3.2.2\n"
 
 #: translation_demo.tscn
+msgctxt "Menu actions"
+msgid "Close"
+msgstr "Закрыть"
+
+#: translation_demo.tscn
+msgctxt "Distance"
+msgid "Close"
+msgstr "Рядом с"
+
+#: translation_demo.tscn
 msgid "Use English"
 msgstr "Используйте английский язык"
 
@@ -96,19 +106,23 @@ msgstr "Здравствуйте!"
 msgid "Click me"
 msgstr "Нажмите мне"
 
+#: translation_demo.tscn
+msgid "..."
+msgstr ""
+
 #: items_menu.gd items_menu.tscn
 msgid "You currently have no fruits!"
 msgstr "В настоящее время у вас нет фруктов!"
 
 #: items_menu.gd items_menu.tscn
-msgid "You currently have %d apples!"
+msgid "You currently have %d apple!"
 msgid_plural "You currently have %d apples!"
 msgstr[0] "В настоящее время у вас есть %d яблоко!"
 msgstr[1] "В настоящее время у вас есть %d яблока!"
 msgstr[2] "В настоящее время у вас %d яблок!"
 
 #: items_menu.gd items_menu.tscn
-msgid "You currently have %d broccolis!"
+msgid "You currently have %d broccoli!"
 msgid_plural "You currently have %d broccolis!"
 msgstr[0] "В настоящее время у вас есть %d броколист!"
 msgstr[1] "В настоящее время у вас %d броколи!"

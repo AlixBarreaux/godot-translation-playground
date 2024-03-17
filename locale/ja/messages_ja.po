@@ -20,6 +20,16 @@ msgstr ""
 "X-Generator: Poedit 3.2.2\n"
 
 #: translation_demo.tscn
+msgctxt "Menu actions"
+msgid "Close"
+msgstr "閉じる"
+
+#: translation_demo.tscn
+msgctxt "Distance"
+msgid "Close"
+msgstr "近く"
+
+#: translation_demo.tscn
 msgid "Use English"
 msgstr "英語を使う"
 
@@ -94,16 +104,20 @@ msgstr "こんにちは！"
 msgid "Click me"
 msgstr "クリック"
 
+#: translation_demo.tscn
+msgid "..."
+msgstr ""
+
 #: items_menu.gd items_menu.tscn
 msgid "You currently have no fruits!"
 msgstr "あなたは現在、果実を持っていない！"
 
 #: items_menu.gd items_menu.tscn
-msgid "You currently have %d apples!"
+msgid "You currently have %d apple!"
 msgid_plural "You currently have %d apples!"
 msgstr[0] "現在、あなたは%d個のリンゴをお持ちです！"
 
 #: items_menu.gd items_menu.tscn
-msgid "You currently have %d broccolis!"
+msgid "You currently have %d broccoli!"
 msgid_plural "You currently have %d broccolis!"
 msgstr[0] "現在、ブロッコリーが%d個あります！"

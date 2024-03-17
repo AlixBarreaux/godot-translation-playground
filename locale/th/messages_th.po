@@ -20,6 +20,16 @@ msgstr ""
 "X-Generator: Poedit 3.2.2\n"
 
 #: translation_demo.tscn
+msgctxt "Menu actions"
+msgid "Close"
+msgstr "ปิด"
+
+#: translation_demo.tscn
+msgctxt "Distance"
+msgid "Close"
+msgstr "ใกล้"
+
+#: translation_demo.tscn
 msgid "Use English"
 msgstr "ใช้ภาษาอังกฤษ"
 
@@ -92,16 +102,20 @@ msgstr "สวัสดี!"
 msgid "Click me"
 msgstr "คลิกฉัน"
 
+#: translation_demo.tscn
+msgid "..."
+msgstr ""
+
 #: items_menu.gd items_menu.tscn
 msgid "You currently have no fruits!"
 msgstr "ขณะนี้คุณไม่มีผลไม้!"
 
 #: items_menu.gd items_menu.tscn
-msgid "You currently have %d apples!"
+msgid "You currently have %d apple!"
 msgid_plural "You currently have %d apples!"
 msgstr[0] "ขณะนี้คุณมีแอปเปิ้ล %d ลูก!"
 
 #: items_menu.gd items_menu.tscn
-msgid "You currently have %d broccolis!"
+msgid "You currently have %d broccoli!"
 msgid_plural "You currently have %d broccolis!"
 msgstr[0] "ขณะนี้คุณมีบรอกโคลิส %d ตัว!"
