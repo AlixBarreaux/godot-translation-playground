@@ -10,14 +10,14 @@ config_version=5
 
 [application]
 
-config/name="Translation Demo"
+config/name="Godot Translatiosn Playground"
 config/name_localized={
 "fr": "Démo Traduction"
 }
 config/description="A demo showing how Godot seamlessly enables
-the use of localized resources and texts."
+the use of localized resources and texts with GetText"
 run/main_scene="res://translation_demo.tscn"
-config/features=PackedStringArray("4.1")
+config/features=PackedStringArray("4.2")
 config/icon="res://icon.png"
 
 [autoload]
