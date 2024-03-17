@@ -16,13 +16,13 @@ config/name_localized={
 }
 config/description="A demo showing how Godot seamlessly enables
 the use of localized resources and texts using GetText."
-run/main_scene="res://translation_demo.tscn"
+run/main_scene="res://scenes/translation_demo.tscn"
 config/features=PackedStringArray("4.2")
-config/icon="res://icon.png"
+config/icon="res://miscellaneous/icon.png"
 
 [autoload]
 
-Settings="*res://settings.gd"
+Settings="*res://autoloads/scripts/settings.gd"
 
 [display]
 
@@ -36,7 +36,7 @@ singletons=[]
 [internationalization]
 
 locale/translation_remaps={
-"res://assets/flags/flag_uk.png": PackedStringArray("res://assets/flags/flag_es.png:es", "res://assets/flags/flag_jp.png:ja", "res://assets/flags/flag_fr.png:fr", "res://assets/flags/flag_pl.png:pl", "res://assets/flags/flag_ar_ae.png:ar_AE", "res://assets/flags/flag_zh.png:zh", "res://assets/flags/flag_ru.png:ru", "res://assets/flags/flag_he.png:he", "res://assets/flags/flag_th.png:th"),
+"res://assets/sprites/flags/flag_uk.png": PackedStringArray("res://assets/sprites/flags/flag_es.png:es", "res://assets/sprites/flags/flag_jp.png:ja", "res://assets/sprites/flags/flag_fr.png:fr", "res://assets/sprites/flags/flag_pl.png:pl", "res://assets/sprites/flags/flag_ar_ae.png:ar_AE", "res://assets/sprites/flags/flag_zh.png:zh", "res://assets/sprites/flags/flag_ru.png:ru", "res://assets/sprites/flags/flag_he.png:he", "res://assets/sprites/flags/flag_th.png:th"),
 "res://assets/voices/hello_en.wav": PackedStringArray("res://assets/voices/hello_es.wav:es", "res://assets/voices/hello_jp.wav:ja", "res://assets/voices/hello_fr.wav:fr", "res://assets/voices/hello_pl.wav:pl", "res://assets/voices/hello_ar_ae.wav:ar_AE", "res://assets/voices/hello_zh.wav:zh", "res://assets/voices/hello_ru.wav:ru", "res://assets/voices/hello_he.wav:he", "res://assets/voices/hello_th.wav:th")
 }
 locale/translations=PackedStringArray("res://locale/es/messages.mo", "res://locale/fr/messages.mo", "res://locale/pl/messages.mo", "res://locale/ja/messages_ja.mo", "res://locale/ar-ae/messages_ar_ae.mo", "res://locale/ru/messages_ru.mo", "res://locale/zh/messages_zh.mo", "res://locale/he/messages_he.mo", "res://locale/th/messages_th.mo")
